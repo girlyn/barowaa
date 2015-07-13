@@ -1,0 +1,79 @@
+<?xml version="1.0"?>
+<config>
+    <tabs>
+        <magegiant translate="label">
+            <label>Magegiant Extension</label>
+            <sort_order>400</sort_order>
+        </magegiant>
+    </tabs>
+    <sections>
+        <magegiant_wysiwyg translate="label" module="magegiant_wysiwyg">
+            <class>separator-top</class>
+            <label>WYSIWYG</label>
+            <tab>magegiant</tab>
+            <frontend_type>text</frontend_type>
+            <sort_order>300</sort_order>
+            <show_in_default>1</show_in_default>
+            <show_in_website>0</show_in_website>
+            <show_in_store>0</show_in_store>
+            <groups>
+                <magegiant_wysiwyg translate="label">
+                    <label>Settings</label>
+                    <frontend_type>text</frontend_type>
+                    <sort_order>1</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>0</show_in_website>
+                    <show_in_store>0</show_in_store>
+                    <fields>
+                        <active translate="label">
+                            <label>Enable</label>
+                            <frontend_type>select</frontend_type>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                            <sort_order>10</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>0</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </active>
+                        <enable_wysiwyg_product translate="label">
+                            <label>Enable for products</label>
+                            <comment>enabled editor for description and short_description</comment>
+                            <frontend_type>select</frontend_type>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                            <sort_order>15</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>0</show_in_website>
+                            <show_in_store>0</show_in_store>
+                            <depends>
+                                <active>1</active>
+                            </depends>
+                        </enable_wysiwyg_product>
+                        <enable_wysiwyg_cms_page translate="label">
+                            <label>Enable for cms pages</label>
+                            <frontend_type>select</frontend_type>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                            <sort_order>30</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>0</show_in_website>
+                            <show_in_store>0</show_in_store>
+                            <depends>
+                                <active>1</active>
+                            </depends>
+                        </enable_wysiwyg_cms_page>
+                        <enable_wysiwyg_static_block translate="label">
+                            <label>Enable for static blocks</label>
+                            <frontend_type>select</frontend_type>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                            <sort_order>45</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>0</show_in_website>
+                            <show_in_store>0</show_in_store>
+                            <depends>
+                                <active>1</active>
+                            </depends>
+                        </enable_wysiwyg_static_block>
+                    </fields>
+                </magegiant_wysiwyg>
+            </groups>
+        </magegiant_wysiwyg>
+    </sections>
+</config>

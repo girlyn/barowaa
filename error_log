@@ -1,0 +1,4 @@
+[02-Jun-2015 08:14:17 UTC] PHP Fatal error:  Call to a member function setErrorMessage() on a non-object in /home/barowaa/public_html/dev/app/code/core/Mage/Adminhtml/controllers/System/BackupController.php on line 140
+[11-Jun-2015 04:29:36 UTC] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 4928 bytes) in /home/barowaa/public_html/dev/lib/Varien/Image/Adapter/Gd2.php on line 60
+[11-Jun-2015 04:29:36 UTC] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 4928 bytes) in /home/barowaa/public_html/dev/lib/Varien/Image/Adapter/Gd2.php on line 60
+[11-Jun-2015 04:29:45 UTC] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 19712 bytes) in /home/barowaa/public_html/dev/lib/Varien/Image/Adapter/Gd2.php on line 60
